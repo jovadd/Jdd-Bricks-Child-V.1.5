@@ -1,0 +1,41 @@
+/* GSAP Animation Base */
+body:not([data-builder-window]) .text-reveal {
+    transform: translateY(1rem);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  body:not([data-builder-window]) .fade-left {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  body:not([data-builder-window]) .fade-right {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+  body:not([data-builder-window]) .fade-in {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  body:not([data-builder-window]) .fade-out {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  body:not([data-builder-window]) .fade-batch {
+    opacity: 0;
+    will-change: scroll-position;
+  }
+  body:not([data-builder-window]) .scroll-right {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  body:not([data-builder-window]) .scroll-left {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  body:not([data-builder-window]) .scale-in {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  body:not([data-builder-window]) .rotate-in {
+    transform: rotate(-15deg);
+    opacity: 0;
+  }

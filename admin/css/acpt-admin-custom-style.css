@@ -1,0 +1,4 @@
+.acpt-admin-horizontal-tabs{ text-transform: uppercase;}
+.acpt-admin-horizontal-tabs .acpt-admin-horizontal-tabs{ color: #B9B9BA!important;}
+.acpt-admin-horizontal-tabs .acpt-admin-horizontal-tab.active{ color: #fff; background-color: #5096F2;}
+.acpt-admin-horizontal-tabs .acpt-admin-horizontal-tab.active:after{ background: transparent; }
